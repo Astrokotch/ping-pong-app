@@ -54,7 +54,7 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '198.57.217.77',
+			'host'      => '198.57.217.777',
 			'database'  => 'mdev6_pingpong',
 			'username'  => 'mdev6_pingpongu',
 			'password'  => '@nBdUmOJTJ.2',
