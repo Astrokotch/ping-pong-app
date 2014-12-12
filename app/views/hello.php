@@ -5,4 +5,12 @@
 		<h1>Let's Build a Ping Pong App</h1>
 	</div>
 
+    <?php $results = DB::select('select * from players where id = ?', array(1)); ?>
+
+    <?php foreach $results as $result {
+    
+    echo "$result=>id";
+    
+    } ?>
+
 <?php include_once "includes/footer.php"; ?>
