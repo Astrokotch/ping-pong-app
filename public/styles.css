@@ -1,0 +1,97 @@
+/*------------------------------------------------
+Main Styles
+------------------------------------------------*/
+
+@import url(//fonts.googleapis.com/css?family=Lato:700);
+
+body {
+    margin:0;
+    font-family:'Lato', sans-serif;
+    text-align:center;
+    color: #fff;
+    background: #272727;
+}
+
+.welcome {
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -100px;
+    text-align:center;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 16px 0 0 0;
+    color: #9B9B9B;
+}
+
+nav {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 200px;
+    list-style: none;
+    margin-top: 50px;
+}
+
+nav li {
+    float: left;
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s ease;
+    -moz-transition: .3s ease;
+    -webkit-transition: .3s ease;
+}
+
+nav li a:hover {
+    color: #D35400;
+    transition: .3s ease;
+    -moz-transition: .3s ease;
+    -webkit-transition: .3s ease;
+}
+
+li.create a {
+    padding: 10px 25px;
+    border: 2px solid #D35400;
+}
+
+li.create a:hover {
+    background: #D35400;
+    color: #fff;
+}
+
+
+
+/*------------------------------------------------
+Standings Styles
+------------------------------------------------*/
+
+section.standings {
+    Submitwidth: 100%;
+    Submitfloat: left;
+}
+
+div.standing {
+    padding: 50px 0;
+    border-bottom: 2px solid #9B9B9B;
+    float: left;
+    width: 100%;
+}
+
+div.standing:first-child {
+    background: #fff;
+    color: #272727;
+}
