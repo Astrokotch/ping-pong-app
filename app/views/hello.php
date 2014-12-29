@@ -3,7 +3,6 @@
 	<div class="welcome">
         <img src="http://www.seekmomentum.com/wp-content/themes/momentum/images/logo.png" alt="Momentum Ping Pong App">
 		<h1>Let's Build a Ping Pong App</h1>
-		<h1>Ok Now we are synched up on Josh's Github account</h1>
 		<h1>Also Brandon is a TWAT.</h1>
 	</div>
 
